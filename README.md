@@ -1,4 +1,4 @@
-# vagrant-symfony
+# vagrant-laravel
 
 A local development environement built using [Vagrant](http://vagrantup.com/) and [Virtualbox](https://www.virtualbox.org/) using puppet and command line provisioning. This will build a local environment for you to start building your own symfony application. 
 
@@ -17,12 +17,8 @@ Puppet manages your servers: describe machine configurations in an easy-to-read 
 
 Install Vagrant + Virtualbox then run the following commands:
 
- 	git clone git@github.com:vagrantphp/vagrant-symfony.git
-	cd vagrant-symfony
+ 	git clone git@github.com:vagrantphp/vagrant-laravel.git
+	cd vagrant-laravel
 	vagrant up
 
 
-Configure the symfony YAML file to match your local configuration
-
-	/vagrant/www/symfony/app/config/parameters.yml
-	
